@@ -1,4 +1,4 @@
-import scapy.all import *
+from scapy.all import *
 
 #Creando un paquete TCP/IP.
 pkt_tcp = Ether()/IP(dst='twiter.com')/TCP(dport=80)
