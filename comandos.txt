@@ -1,0 +1,5 @@
+1. Crear el archivo requirements.txt
+
+    Ejecutar:
+
+        pip list > requirements.txt
